@@ -1,6 +1,6 @@
 
 int numCircuits=4;
-int circuit[4] = {7,8,9,10};
+int circuit[4] = {4, 5, 6, 7}; //, 8, 9, 10, 11};
 
 //int c1 = 8;
 char cmdBuffer[18];
@@ -31,7 +31,7 @@ void loop() {
 }
 
 /* Command will be of format
- * char 1: light number (0-3)
+ * char 1: light number (0-7)
  * char 2: 0 - off, 1 - on
 */
 void runCommand(char* cmd) {
